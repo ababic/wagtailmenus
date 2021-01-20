@@ -26,6 +26,8 @@ matrix:
     python: 3.8
   - env: TOXENV=py38-dj32-wt211
     python: 3.8
+  - env: TOXENV=py38-dj32-wt212
+    python: 3.8
 
 install:
 - pip install tox codecov
